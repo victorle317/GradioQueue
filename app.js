@@ -6,9 +6,15 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const mongoose = require('mongoose');
+
 
 var app = express();
 
+
+mongoose.connect('mongodb+srv://victorle:VsJ0iZg8gEqYihMq@cluster0.xusobfw.mongodb.net/stablediffusion')
+.then(() => console.log('Connected to MongoDB...'))
+.catch(err => console.error('Could not connect to MongoDB...', err));
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
