@@ -28,7 +28,7 @@ router.get('/', async function(req, res, next) {
       {
       "exist": "true",
       "err":"false",
-      "url": `https://omotet2024.com/generate/24617949661185177/65af219b20af3f3584e778d7`
+      "url": result.current_step,
       }
     });
 });
