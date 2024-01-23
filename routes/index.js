@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
           "text": `OMO gửi bạn Lấm bẩn hoá hy vọng cho năm Giáp Thìn 2024 <3`
       },
       {
-        "text": `Bạn có thể tải ảnh trực tiếp tại khung chat này hoặc truy cập vào link để có ảnh chất lượng cao nhé <3!  https://omotet2024.com/generate/24617949661185177/65af219b20af3f3584e778d7',  
+        "text": `Bạn có thể tải ảnh trực tiếp tại khung chat này hoặc truy cập vào link để có ảnh chất lượng cao nhé <3!  https://omotet2024.com/generate/24617949661185177/65af219b20af3f3584e778d7`,  
     },
     {
       "attachment": {
